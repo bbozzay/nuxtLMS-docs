@@ -1,0 +1,15 @@
+.article {
+  &_index {
+    @apply w-full;
+    @apply mx-auto;
+    @apply pt-20;
+
+    @screen lg {
+      @apply flex;
+    }
+
+    @screen md {
+      @apply max-w-4xl;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.buttonClear {
+    @apply inline-block;
+    @apply py-2;
+    @apply px-4;
+    @apply no-underline;
+    @apply border;
+    @apply border-black;
+    @apply rounded-sm;
+    @apply text-black;
+
+    &:hover {
+        @apply bg-black;
+        @apply text-white;
+    }
+}

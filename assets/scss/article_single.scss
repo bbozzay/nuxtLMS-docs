@@ -1,0 +1,16 @@
+.article {
+  &_content {
+    @apply w-full;
+    @apply mx-auto;
+    @apply pt-8;
+
+    @screen lg {
+      @apply pl-6;
+      @apply pr-6;
+    }
+
+    @screen md {
+      @apply max-w-3xl;
+    }
+  }
+}
