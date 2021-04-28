@@ -1,6 +1,17 @@
 <template>
   <div class="layoutHome">
     <home-hero />
+    <div>
+      <div class="container mx-auto">
+        <h3>Stack:</h3>
+        <ul>
+          <li>NuxtJS</li>
+          <li>Stripe</li>
+          <li>Netlify</li>
+          <li>Nuxt $auth</li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 

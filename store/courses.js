@@ -11,17 +11,19 @@ export const state = () => ({
         {
           title: "Overview",
           articleSlugs: [
-            "api",
-            "helpers",
+            "options",
+            "methods",
             "middleware",
-            "options"
+            "data",
+            "components",
+            "internals",
           ]
         }
       ]
     }
   ],
   courseIndex: {
-    "pmo": 0
+    "docs": 0
   }
 })
 

@@ -4,7 +4,7 @@
         to="/"
         class="text-gray-900 text-base no-underline hover:no-underline font-extrabold text-xl"
     >
-        PMO
+        Nuxt LMS
     </nuxt-link>
     </div>
 </template>
