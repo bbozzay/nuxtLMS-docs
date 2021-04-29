@@ -17,6 +17,7 @@ export const state = () => ({
             "data",
             "components",
             "internals",
+            "auth0",
           ]
         }
       ]
