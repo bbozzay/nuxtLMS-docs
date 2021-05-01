@@ -94,5 +94,5 @@ Stripe Dashboard > Developers > Webhooks > Your Endpoint > Signing secret
 
 
 ## Elastic Mail
-`options.elastic.publicAccountID`
+`options.elasticMail.publicAccountID`
 Required
