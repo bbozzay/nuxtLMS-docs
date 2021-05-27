@@ -18,6 +18,11 @@ List one signup plan.
 props: `name<String>`, `description<String>`
 
 ## navigation-auth
+
+```
+<navigation-auth></navigation-auth>
+```
+
 Header navigation item that displays either login or logout depending on the user's signed in state.
 
 ## luminous-box

@@ -51,3 +51,17 @@ Updates the auth0 `user_metadata`.
 User must be logged in.
 
 Fetches `app_metadata`.
+
+## Lib/functions
+
+### Delegated Access Tokens
+Some management permissions are required for certain API calls. As a result, management.js files contain the permissions for that delegated token.
+
+### gatedContent
+Encrypt or decrypt content that requires an access level.
+
+### helpers/data.js
+Interact with data files.
+
+### validate
+All routes require the user to be logged in first.

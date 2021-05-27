@@ -46,6 +46,21 @@ Redirect relative path for signup.
 ## .env
 Required .env key/values.
 
+
+## .env
+
+```
+BASEURL=http://localhost:8888
+PURGE_CSS=false
+STRIPE_PUB_KEY=
+STRIPE_SECRET_KEY=
+AUTH0_CLIENT_ID=
+AUTH0_MANAGEMENT_AUDIENCE=
+AUTH0_SECRET=
+AUTH0_DOMAIN=
+AUTH0_AUDIENCE=
+```
+
 `BASEURL`
 
 localhost:8888
