@@ -106,3 +106,8 @@ Stripe Dashboard > Developers > API keys > Secret key.
 `STRIPE_WEBHOOK_SECRET`
 
 Stripe Dashboard > Developers > Webhooks > Your Endpoint > Signing secret
+
+
+## Elastic Mail
+`options.elasticMail.publicAccountID`
+Required
