@@ -4,17 +4,19 @@ description: "Data files are used to validate the correct data on the front and 
 ---
 Data files act as tiny databases that are mainly used for validation between the client and lambda functions.
 
+## User-role products
+Create JSON containing the Stripe payment intents amount to charge with associated auth0 role_ids.
 ```json
 // data/plans.json
 {
   "plans": [
     {
-      "name": "Pagespeed",
-      "description": "Access the pagespeed course",
-      "role_id": "rol_hekasGQzIY2Lgpfa",
-      "price": "price_1IhO1BHXUMNKadA4qMOsvH5X",
-      "amount": 6500,
-      "amount_usd": 65.00
+      "name": "Plan Name",
+      "description": "Plan Description",
+      "home": "/learn",
+      "role_id": "auth0_roleid",
+      "amount": 100,
+      "amount_usd": 100
     }
   ]
 }
